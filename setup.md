@@ -4,6 +4,7 @@ ssh-keygen -t rsa -b 4096 -C your_email@abc.com
 (should be named according to the service e.g. github_rsa)
 (you can leave phassphrase empty it is like another layer of security you will be asked for password when key will be used.)
 ```
+```
 Copy the PUBLIC key from ~/.ssh/your_stored_key.pub
 Paste your PUBLIC key to the github.com to settings for example or other platfrom. 
 Or if you are connecting to other machine use this commands:
