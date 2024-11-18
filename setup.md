@@ -32,3 +32,11 @@ IdentityFile ~/.ssh/your_stored_key (without .pub)
 TCPKeepAlive yes
 IdentitiesOnly yes
 ```
+```
+When using .pem file u can use:
+
+eval $(ssh-agent -s) -> start SSH agent.
+ssh-add /path/to/.pem -> add key identity to agent.
+
+U can add this lines to .bashrc for automatic start and add identity.
+```
